@@ -1,0 +1,116 @@
+h1{
+    font-family: sans-serif;
+    text-align: center; 
+    font-size: 1.5cm;
+}
+p{
+    font-family: sans-serif;
+    text-align: center;
+    color: purple;
+    font-size: 6mm;
+}
+fieldset{
+    border: 0;
+}
+body{
+    font-family: sans-serif;
+    margin-top: 10%;
+    background-color: rgb(216, 174, 216);
+}
+input, select{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+#enviar{
+    border-radius: 5px;
+    margin-left: 12.5cm;
+    height: 30px;
+    font-family: sans-serif;
+    background-color: lightpink;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+#nome-sobrenome{
+    display: flex;
+    margin-left: 10px;
+}
+#nome{
+    size: 0.2em;
+    width: 15em;
+}
+#input-sobrenome{
+    margin-left: 50px;
+}
+#sobrenome{
+    width: 15em;
+}
+#nascimento{
+    margin-left: 50px;
+}
+#data{
+    width: 15em;
+}
+#matricula-curso-admissao{
+    display: flex;
+    margin-left: 10px;
+}
+#curso{
+    margin-left: 50px;
+}
+#input-curso{
+    width: 18.4em;
+}
+#data-admissao{
+    margin-left: 50px;
+}
+#admissao{
+    width: 16.3em;
+}
+#telefone-email-instagram{
+    display: flex;
+    margin-left: 10px;
+}
+#telefone{
+    width: 9.2em;
+}
+#email{
+    margin-left: 50px;
+}
+#e-mail{
+    width: 18em;
+}
+#instagram{
+    margin-left: 50px;
+}
+#insta{
+    width: 20.5em;
+}
+#estado-cidade-endereco{
+    display: flex;
+    margin-left: 10px;
+}
+#estado{
+    width: 200px;
+}
+#cidade{
+    margin-left: 50px;
+}
+#cidades{
+    width: 235px;
+}
+#endereco{
+    margin-left: 50px;
+}
+#rua{
+    width: 21em;
+}
+#informacao{
+    margin-left: 55%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 3mm;
+}

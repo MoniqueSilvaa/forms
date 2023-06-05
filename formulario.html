@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CADASTRO IFPB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <p>PREENCHA SEUS DADOS LOGO ABAIXO</p>
+    <br>
+
+<div class="form">
+    <form>
+        <fieldset>
+        <div id="nome-sobrenome">
+            <div>
+                <label><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div id="input-sobrenome">
+                <label><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div id="nascimento">
+                <label><strong>Data de Nascimento:</strong></label>
+                <input type="date" name="data" id="data" required>
+            </div>
+        </div>  
+        </fieldset>
+
+        <fieldset>
+        <div id="matricula-curso-admissao">
+            <div>
+                <label><strong>Matrícula:</strong></label>
+                <input type="text" name="matricula" required>
+            </div>
+
+            <div id="curso">
+                <label><strong>Curso:</strong></label>
+                <select id="input-curso">
+                    <option selected disabled value="">selecione</option>
+                    <option>Gestão Comércial</option>
+                    <option>Sistemas para Internet</option>
+                </select>    
+            </div>
+
+            <div id="data-admissao">
+                <label><strong>Data de Admissão:</strong></label>
+                <input type="date" name="admissao" id="admissao" required>
+            </div>
+        </div>   
+        </fieldset>
+
+        <fieldset>
+            <div id="telefone-email-instagram">
+                <div>
+                    <label><strong>Telefone/Celular:</strong></label>
+                    <input type="text" name="telefone" id="telefone" required>
+                </div>
+
+                <div id="email">
+                    <label><strong>E-mail:</strong></label>
+                    <input type="email" name="email" id="e-mail" required>
+                </div>
+
+                <div id="instagram">
+                    <div>
+                        <label><strong>Instagram:</strong></label>
+                        <input type="text" name="instagram" id="insta">
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div id="estado-cidade-endereco">
+                <div>
+                    <label><strong>Estado:</strong></label>
+                    <select id="estado">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Acre (AC)</option>
+                        <option>Alagoas (AL)</option>
+                        <option>Amapá (AP) </option>
+                        <option>Amazonas (AM) </option>
+                        <option>Bahia (BA)</option>
+                        <option>Ceará (CE)</option>
+                        <option>Espírito Santo (ES)</option>
+                        <option>Goiás (GO)</option>
+                        <option>Maranhão (MA)</option>
+                        <option>Mato Grosso (MT)</option>
+                        <option>Mato Grosso do Sul (MS)</option>
+                        <option>Minas Gerais (MG)</option>
+                        <option>Pará (PA)</option>
+                        <option>Paraíba (PB)</option>
+                        <option>Paraná (PR)</option>
+                        <option>Pernambuco (PE)</option>
+                        <option>Piauí (PI)</option>
+                        <option> Rio de Janeiro (RJ)</option>
+                        <option>Rio Grande do Norte (RN)</option>
+                        <option> Rio Grande do Sul (RS)</option>
+                        <option>Rondônia (RO)</option>
+                        <option>Roraima (RR)</option>
+                        <option>Santa Catarina (SC)</option>
+                        <option>São Paulo (SP)</option>
+                        <option>Sergipe (SE)</option>
+                        <option>Tocantins (TO)</option>
+                    </select>
+                </div>
+
+                <div id="cidade">
+                    <label><strong>Cidade:</strong></label>
+                    <input type="text" name="cidade" id="cidades" required>
+                </div>
+
+                <div id="endereco">
+                    <label><strong>Endereço:</strong></label>
+                    <input type="text" name="endereco" id="rua" required>
+                </div>
+            </div>
+        </fieldset>
+
+        <br>
+        <button id="enviar" type="submit"> CONCLUÍDO</button>
+
+        <br>
+    <div id="informacao">
+        <h3>Para saber mais informações acesse o link:<a href="https://www.ifpb.edu.br/guarabira" >IFPB CAMPUS GUARABIRA</a>.</h3>
+        <h4> Ou entre em contato com o número: (83) 98195-6465</h4>
+    </div>
+    </form>
+</div>
+</body>
+</html>
